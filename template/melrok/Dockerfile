@@ -1,4 +1,4 @@
-FROM registry.melrok.com/openfaas:test
+FROM registry.melrok.com/openfaas:base
 
 # Allows you to add additional packages via build-arg
 ARG ADDITIONAL_PACKAGE
